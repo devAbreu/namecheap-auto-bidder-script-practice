@@ -16,12 +16,40 @@ This script was created as a practice exercise to learn how to interact with API
 
 ## Usage
 
-To use this script, you will need to have Python installed on your machine and you will also need to install the dependencies listed in the `requirements.txt` file.
+To use this script, you will first need to have Python installed on your machine. It's recommended to create a virtual environment to isolate the dependencies for this project. You can do this using `venv` module which is included in standard Python distribution:
+
+```
+python3.11 -m venv env
+```
+
+Then, activate the virtual environment:
+
+On Windows, run:
+```
+env\Scripts\activate
+```
+
+On Unix or MacOS, run:
+```
+source env/bin/activate
+```
+
+Once the virtual environment is activated, you will need to install the dependencies listed in the `requirements.txt` file:
+
+```
+pip3 install -r requirements.txt
+```
 
 To run the script, you can use the following command:
 
 ```
 python main.py
+```
+
+Remember to deactivate the virtual environment when you're done:
+
+```
+deactivate
 ```
 
 ## Automatic Execution with Crontab
