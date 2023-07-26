@@ -1,0 +1,9 @@
+# General
+.DS_Store
+
+# Environments
+.env
+env/
+
+# logs
+*.log
